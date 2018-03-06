@@ -16,20 +16,85 @@
 		<div class="container">
 			<a href="index.html" class="navbar-brand">WebsiteBoot</a> <!--se estiliza, se resalta como si fuera un logo-->
 			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><!--Sólo aparecera en dispositivos moviles-->
-			<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarCollapse"><!--navegacion normal-->
 				<ul class="navbar-nav ml-auto"><!--todos los enlaces se iran hacia la derecha-->
-					<li class="nav-item"><a href="#" class="nav-link">Home</a></li><!--estilizar los enlaces de navegación-->
+					<li class="nav-item"><a href="#home-section" class="nav-link">Home</a></li><!--estilizar los enlaces de navegación-->
 					<li class="nav-item"><a href="#" class="nav-link">Info</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Create</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Share</a></li>
 				</ul>
-				
 			</div>
 		</div>
-
 	</nav>
+	<!---->
+	<!--HOME-->
+	<header id="home-section">
+		<div class="dark-overlay"><!--Oscurecer la imagen-->
+			<div class="home-inner"><!--Contenido interno del home-->
+				<div class="container"><!--clases de bootstrap-->
+					<div class="row"><!--fila-->
+						<div class="col-lg-8"><!--columna-->
+							<h1 class="display-4">Lorem<strong>ipsum</strong>dolor.</h1><!--display-4.Mientras más altos sean los números, el texto es más pequeño(para estilizar el texto, hacerlo más notorio)-->
+							
+							<!--ITEM-->
+							<div class="d-flex flex-row"><!--display-flexbox (Para colocar los item uno debajo del otro)-->
+								<div class="p-4"><!--Para que tenga un padding de 4-->
+									<i class="fas fa-certificate"></i><!--icono estrella-->
+									
+								</div>
+								<div class="p-4"><!---->
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+								</div>
+							</div>
+							<!--ITEM-->
+							<div class="d-flex flex-row">
+								<div class="p-4">
+									<i class="fas fa-certificate"></i>
+								</div>
+								<div class="p-4">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+								</div>
+							</div>
+							<!--ITEM-->
+							<div class="d-flex flex-row">
+								<div class="p-4">
+									<i class="fas fa-certificate"></i>
+								</div>
+								<div class="p-4">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="card text-center" style="background-color: #c0392b;"><!--Pequeña tarjeta-->
+								<div class="card-body"><!--contenedor que centrará el contenido dentro de la tarjeta-->
+									<h3>Lorem Ipsum.</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+									<form>
+										<div class="form-group">
+											<input type="text" class="form-control form-control-lg" placeholder="Username"><!--clase de bootstrap para estilizar input(bordes redondeados, color especifico y espaciado)-->
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control form-control-lg" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+										</div>
+										<input type="submit" class="btn btn-outline-light btn-block" value="Send"> <!--colorsolo los bordes del boton--> <!--btn-block(toma el tamaño ancho de los input)-->
+									</form>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</header>
 
 
 
