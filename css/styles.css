@@ -1,0 +1,10 @@
+.navbar{
+	border-bottom: #c0932b 3px solid;
+}
+
+#home-section{
+background: url('img/bg.jpg');
+min-height: 100vh; /*Alto del dispositivo*/
+background-size: cover; /*Para que ocupe todo el ancho*/
+
+}
