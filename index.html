@@ -22,7 +22,7 @@
 			<div class="collapse navbar-collapse" id="navbarCollapse"><!--navegacion normal-->
 				<ul class="navbar-nav ml-auto"><!--todos los enlaces se iran hacia la derecha-->
 					<li class="nav-item"><a href="#home-section" class="nav-link">Home</a></li><!--estilizar los enlaces de navegación-->
-					<li class="nav-item"><a href="#" class="nav-link">Info</a></li>
+					<li class="nav-item"><a href="#info-section" class="nav-link">Info</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Create</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Share</a></li>
 				</ul>
@@ -36,8 +36,8 @@
 			<div class="home-inner"><!--Contenido interno del home-->
 				<div class="container"><!--clases de bootstrap-->
 					<div class="row"><!--fila-->
-						<div class="col-lg-8"><!--columna-->
-							<h1 class="display-4">Lorem<strong>ipsum</strong>dolor.</h1><!--display-4.Mientras más altos sean los números, el texto es más pequeño(para estilizar el texto, hacerlo más notorio)-->
+						<div class="col-lg-8 d-none d-sm-block"><!--columna-->
+							<h1 class="display-4">Lorem <strong>ipsum </strong>dolor.</h1><!--display-4.Mientras más altos sean los números, el texto es más pequeño(para estilizar el texto, hacerlo más notorio)-->
 							
 							<!--ITEM-->
 							<div class="d-flex flex-row"><!--display-flexbox (Para colocar los item uno debajo del otro)-->
@@ -86,17 +86,75 @@
 										<input type="submit" class="btn btn-outline-light btn-block" value="Send"> <!--colorsolo los bordes del boton--> <!--btn-block(toma el tamaño ancho de los input)-->
 									</form>
 								</div>
-								
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			
 		</div>
-		
 	</header>
 
+
+	<section class="info-head-section">
+		<div class="container">
+			<div class="row">
+				<div class="text-center p-5"><!--espaciado interno de 5-->
+					<h1 display-4>Info</h1><!--display para estilizar-->
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p><!--LEAD: centra el texto y le da más enfasis ampliando el tamaño-->
+					<button type="button" class="btn btn-outline-secondary">Lorem ipsum dolor</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="info-section bg-light text-muted py-5" id="info-section"><!--BG:background, MUTED: para que el texto esté distinto, PY:solo padiding arriba y abajo-->
+		<div class="container">
+			<div class="row">
+
+				<!--SECCION_1 IMG-->
+				<div class="col-md-6">
+					<img src="img/img1.png" alt="">
+				</div>
+				<div class="col-md-6">
+					<h3> Service And Product</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt.</p>
+					<!--ITEM-->
+					<div class="d-flex flex-row"><!--display-flexbox (Para colocar los item uno debajo del otro)-->
+						<div class="p-4"><!--Para que tenga un padding de 4-->
+							<i class="fas fa-certificate"></i><!--icono estrella-->
+
+						</div>
+						<div class="p-4"><!---->
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+						</div>
+					</div>
+					<!--ITEM-->
+							<div class="d-flex flex-row"><!--display-flexbox (Para colocar los item uno debajo del otro)-->
+								<div class="p-4"><!--Para que tenga un padding de 4-->
+									<i class="fas fa-certificate"></i><!--icono estrella-->
+									
+								</div>
+								<div class="p-4"><!---->
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+								</div>
+							</div>
+							<!--ITEM-->
+							<div class="d-flex flex-row"><!--display-flexbox (Para colocar los item uno debajo del otro)-->
+								<div class="p-4"><!--Para que tenga un padding de 4-->
+									<i class="fas fa-certificate"></i><!--icono estrella-->
+									
+								</div>
+								<div class="p-4"><!---->
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+								</div>
+							</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
 
 
 
